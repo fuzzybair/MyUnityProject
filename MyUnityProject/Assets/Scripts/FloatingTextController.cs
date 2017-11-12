@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using MyUnityProject.Support;
+using UnityEngine;
 
 public class FloatingTextController : MonoBehaviour
 {
@@ -7,14 +8,8 @@ public class FloatingTextController : MonoBehaviour
 	void Start()
 	{
 		TextMesh floatingText = gameObject.GetComponent<TextMesh>();
-#if UNITY_WSA
-		var myText = new MyUnityProject.Support.UWP.MyText();
+		IMyText myText = new MyText();
 		floatingText.text = myText.GetUIText();
-#endif
-#if UNITY_EDITOR
-		//var myText = new MyUnityProject.Support.Editor.MyEditorText();
-		//floatingText.text = myText.GetUIText();
-#endif
 	}
 
 

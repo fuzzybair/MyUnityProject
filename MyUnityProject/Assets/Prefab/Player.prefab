@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 4686604554972686}
   - component: {fileID: 23065632971632142}
   - component: {fileID: 102160614941755722}
+  - component: {fileID: 114749698865496456}
   m_Layer: 0
   m_Name: FloatingText
   m_TagString: Player
@@ -242,7 +243,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1704179702099910}
-  m_Text: Hello World!
+  m_Text: Not Set
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -265,6 +266,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb71e9ceb685d704587969d85e3dd186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114749698865496456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704179702099910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352b2678362a1e0429e84d3d627c88ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114762235088375530

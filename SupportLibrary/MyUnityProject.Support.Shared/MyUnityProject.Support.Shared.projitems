@@ -9,5 +9,6 @@
     <Import_RootNamespace>MyUnityProject.Support</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)IMyText.cs" />
   </ItemGroup>
 </Project>

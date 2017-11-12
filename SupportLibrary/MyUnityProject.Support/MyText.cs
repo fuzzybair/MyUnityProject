@@ -4,7 +4,7 @@
 	{
 		public string GetUIText()
 		{
-			return "This is UWP";
+			return "This is the Editor";
 		}
 	}
 }

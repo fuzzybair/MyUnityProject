@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyUnityProject.Support", "MyUnityProject.Support\MyUnityProject.Support.shproj", "{4CCEEBDC-C6D9-420F-9805-3BC602550580}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyUnityProject.Support.Shared", "MyUnityProject.Support.Shared\MyUnityProject.Support.Shared.shproj", "{4CCEEBDC-C6D9-420F-9805-3BC602550580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityProject.Support.Editor", "MyUnityProject.Support.Editor\MyUnityProject.Support.Editor.csproj", "{09729B74-E00C-483B-94E4-4ECDD99DAEFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityProject.Support", "MyUnityProject.Support\MyUnityProject.Support.csproj", "{09729B74-E00C-483B-94E4-4ECDD99DAEFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityProject.Support.UWP", "MyUnityProject.Support.UWP\MyUnityProject.Support.UWP.csproj", "{B913DE66-AB48-43F8-9053-789D659952BD}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		MyUnityProject.Support\MyUnityProject.Support.projitems*{4cceebdc-c6d9-420f-9805-3bc602550580}*SharedItemsImports = 13
+		MyUnityProject.Support.Shared\MyUnityProject.Support.Shared.projitems*{09729b74-e00c-483b-94e4-4ecdd99daefc}*SharedItemsImports = 4
+		MyUnityProject.Support.Shared\MyUnityProject.Support.Shared.projitems*{4cceebdc-c6d9-420f-9805-3bc602550580}*SharedItemsImports = 13
+		MyUnityProject.Support.Shared\MyUnityProject.Support.Shared.projitems*{b913de66-ab48-43f8-9053-789d659952bd}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
