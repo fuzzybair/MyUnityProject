@@ -7,14 +7,17 @@ public class FloatingTextController : MonoBehaviour
 	void Start()
 	{
 		TextMesh floatingText = gameObject.GetComponent<TextMesh>();
-		floatingText.text = GetUIText();
+#if UNITY_WSA
+		var myText = new MyUnityProject.Support.UWP.MyText();
+		floatingText.text = myText.GetUIText();
+#endif
+#if UNITY_EDITOR
+		//var myText = new MyUnityProject.Support.Editor.MyEditorText();
+		//floatingText.text = myText.GetUIText();
+#endif
 	}
 
 
-	private string GetUIText()
-	{
-		return "This is a test";
-	}
 
 	// Update is called once per frame
 	void Update()
