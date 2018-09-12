@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 23373719942496074}
   - component: {fileID: 114762235088375530}
   - component: {fileID: 114365771848286670}
+  - component: {fileID: 362357794870154162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -324,3 +325,10 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!362 &362357794870154162
+WorldAnchor:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175929092328502}
+  serializedVersion: 2
